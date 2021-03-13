@@ -1,0 +1,100 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .AddClientCockpit {
+    border: 10px;
+    padding: 10px;
+  }
+  
+
+  .App button { 
+    /* background-color: lightcyan ;
+    border-radius: 3px;
+    font-size: 24px;
+    border-color: slategray;
+    transition-duration: .4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+}
+
+  .App button:hover { 
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: skyblue;
+    color: white;
+}
+
+
+  .PageBox {
+    padding: 4px;
+    border: 3px solid maroon;
+    border-spacing: 60px;
+  }
+
+  .Header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.Header li {
+    display: inline-block;
+    margin: 20px;
+}
+
+.Header a {
+    text-decoration: none;
+    color: black;
+}
+
+.Header p {
+  font-weight: normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  color: black;
+}
+
+.Header h1{
+  padding: 35px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+.Header a:hover,
+.Header a:active {
+    color: #fa923f;
+}
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

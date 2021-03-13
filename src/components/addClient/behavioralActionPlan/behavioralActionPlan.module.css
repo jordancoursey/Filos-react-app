@@ -1,0 +1,172 @@
+.PatientInfoRow {
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    height: 25px;
+    width: 400px;
+    display: flex;
+}
+
+.PatientInfoRow div{
+    flex: 1;
+}
+
+.leftBox{
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 25px;
+    width: 200px;
+}
+
+.rightBox{
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    height: 25px;
+    width: 200px;
+}
+
+.rightBox input{
+    height: 25px;
+    width: 200px;
+}
+
+.clientDescriptionBox{
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 200px;
+    width: 600px;
+    position:inherit;
+    transition: left 1s;
+}
+
+.clientDescriptionBoxHeader{
+    box-sizing: border-box;
+    /* border-bottom: 1px solid black; */
+    height: 25px;
+    width: 600px;
+    text-align: center;
+}
+
+.clientDescriptionBoxLabels{
+    box-sizing: border-box;
+    /* border-bottom: 1px solid black; */
+    height: 30px;
+    width: 600px;
+    display: flex;
+}
+
+.clientDescriptionBoxLabels div{
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 30px;
+    flex: 1;
+}
+
+.clientDescriptionBoxText {
+    width: 600px;
+    height: 145px;
+    display: flex;
+}
+
+.clientDescriptionBoxText textarea{
+    flex: 1;
+    resize: none;
+    width: 200px;
+}
+
+.strategyWhole {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.strategyHeader{
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    height: 25px;
+    width: 500px;
+    display: flex;
+}
+
+.strategyHeader div{
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 25px;
+    width: 250px;
+    text-align: center;
+    flex: 1;
+}
+
+.strategyBox{
+    box-sizing: border-box;
+    height: 60px;
+    width: 500px;
+    display: flex;
+}
+
+.strategyBox textarea{
+    box-sizing: border-box;
+    height: 60px;
+    width: 250px;
+    flex: 1;
+    resize: none;
+}
+
+.Main {
+    /* justify-content: center; */
+    /* width: 100%; */
+}
+
+.Main button {
+    width: 12%;
+    background-color: lightcyan;
+    border-radius: 12px;
+    transition: .3s;
+    height: 3%
+}
+
+.Main button:hover {
+    opacity: 75%;
+    width: 14%;
+
+}
+
+.Main input {
+    border-radius: 6px;
+}
+
+.Main select {
+    background-color: rgb(137, 208, 252);
+    border-radius: 6px;
+}
+
+/* .Body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+.Break {
+    flex-basis: 100%;
+    height:0;
+}
+
+.Behavior {
+    display: flex;
+}
+
+.Behavior p {
+   width: 12%;
+   text-align: center;
+   flex: 1;
+} */
+
+.Behavior input {
+}
+
+@media (max-width: 1080px){
+    /* Less than 1080px this happens */
+    .Main {
+        width: 1080px;
+        left: 33%;
+    }
+}
